@@ -2,6 +2,20 @@ body{
   margin: 0;
 }
 
+/* The animation code */
+@keyframes example {
+ from {background-color: red;}
+ to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+.container h1 {
+
+ background-color: red;
+ animation-name: example;
+ animation-duration: 4s;
+}
+
 .menu-design{
   padding: 30px; margin: auto; height: 60px; width: 490px;
   margin-bottom: 50px;
